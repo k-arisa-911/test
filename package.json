@@ -14,18 +14,13 @@
     "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix && npm run lint:style -- --fix",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.{js,vue}": "eslint --cache",
-    "*.{css,scss,sass,html,vue}": "stylelint",
-    "*.**": "prettier --check --ignore-unknown"
-  },
   "dependencies": {
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10",
-    "vuetify": "^2.6.10"
+    "vuetify": "^2.6.14"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
