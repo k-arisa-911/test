@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+.husky/commit-msg
+.husky/pre-commit
+package.json
