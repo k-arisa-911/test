@@ -17,6 +17,7 @@
           <a href="/catch">最新釣り情報</a>
           <br>
           <a href="/access">アクセス</a>
+          ちんちん復活
         </v-card-title>
         <v-card-text>
           <p>
